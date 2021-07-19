@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lan = 'en'>
+    <title>Sign Up Form</title>
+    
+    <head>
+        <meta charset="utf-8">
+        <link rel = "styleshee" href ="./stylesheet.css">
+    </head>
+
+    <body>
+        <h1>Sign Up Form</h1>
+
+        <form>
+            <input type="text" id= "name" name= "name" placeholder="Name"><br>
+            <input type="text" id= "password" name= "password" placeholder="Password"><br>
+            <input type="text" id= "githubUsername" name="githubUsername" placeholder="githubUsername"><br>
+            <input type="checkbox" id= "rememberMe" value= "rememberMe">
+            <label for="rememberMe">Remember Me</label>
+            <div>
+                <h3>Account Type</h3>
+                <input type="radio" id= "Enterpise" name="accountType" value="Enterprise">
+                <label for= 'Enterprise'>Enterpise</label><br>
+                <input type="radio" id="Pro" name= "accountType" value="Pro">
+                <label for= "Pro">Pro</label><br>
+                <input type="radio" id="Free" name= "accountType" value="Free">
+                <label for="Free">Free</label><br>
+            </div>
+            
+            <input type="submit">
+        </form>
+    </body>
+</html>
